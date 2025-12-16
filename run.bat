@@ -1,1 +1,1 @@
-java -Xms4G -Xmx6G -jar fabric-server-mc.1.21.11-loader.0.18.2-launcher.1.1.0.jar nogui
+java -Xms2G -Xmx4G -jar fabric-server-mc.1.21.11-loader.0.18.2-launcher.1.1.0.jar nogui
