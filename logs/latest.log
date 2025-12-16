@@ -1,8 +1,8 @@
-[14:52:03] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
-[14:52:03] [main/WARN]: Warnings were found!
+[15:14:14] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[15:14:15] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.9.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[14:52:03] [main/INFO]: Loading 75 mods:
+[15:14:15] [main/INFO]: Loading 76 mods:
 	- c2me 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-base 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-client-uncapvd 0.3.6+beta.1.0+1.21.11
@@ -15,6 +15,7 @@
 	   |-- c2me-opts-chunkio 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-dfc 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-math 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-natives-math 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-scheduling 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-general 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-vanilla 0.3.6+beta.1.0+1.21.11
@@ -78,79 +79,69 @@
 	   \-- mixinextras 0.5.0
 	- fallingtree 1.21.11.2
 	- ferritecore 8.0.3
-	- java 21
+	- java 25
 	- lithium 0.21.1+mc1.21.11
 	- minecraft 1.21.11
 	- spark 1.10.156
 	   \-- fabric-permissions-api-v0 0.6.1
-[14:52:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/E:/server/Minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:52:04] [main/INFO]: Compatibility level set to JAVA_16
-[14:52:04] [main/INFO]: Compatibility level set to JAVA_17
-[14:52:04] [main/INFO]: Compatibility level set to JAVA_21
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:52:04] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:52:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:52:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:52:05] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:52:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[14:52:05] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:52:05] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:52:05] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:52:05] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[14:52:05] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[14:52:06] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.allowAVX512 because it is not used
-[14:52:06] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.enabled because it is not used
-[14:52:06] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration because it is not used
-[14:52:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[14:52:16] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[14:52:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[14:52:17] [main/INFO]: Found new data pack dynamiclights, loading it automatically
-[14:52:20] [main/INFO]: Loaded 1470 recipes
-[14:52:20] [main/INFO]: Loaded 1586 advancements
-[14:52:20] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.796 ms
-[14:52:20] [Server thread/INFO]: Starting background profiler...
-[14:52:20] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[14:52:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[14:52:20] [Server thread/INFO]: Loading properties
-[14:52:20] [Server thread/INFO]: Default game type: SURVIVAL
-[14:52:20] [Server thread/INFO]: Generating keypair
-[14:52:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:52:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:52:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:52:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:52:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:52:21] [Server thread/INFO]: Preparing level "world"
-[14:52:21] [Server thread/INFO]: Enforcing safe world random access
-[14:52:22] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.041 s
-[14:52:23] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[14:52:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 83.27 ms
-[14:52:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 66.10 ms
-[14:52:23] [Server thread/INFO]: Loading 0 persistent chunks...
-[14:52:23] [Server thread/INFO]: Preparing spawn area: 100%
-[14:52:23] [Server thread/INFO]: Time elapsed: 31 ms
-[14:52:23] [Server thread/INFO]: Done (2.609s)! For help, type "help"
-[14:53:23] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[15:06:45] [Server thread/INFO]: Roni[/192.168.1.3:52950] logged in with entity id 120 at (364.6383434688937, 72.0, -39.99926330455484)
-[15:06:46] [Server thread/INFO]: Roni joined the game
-[15:06:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5219ms or 104 ticks behind
-[15:07:29] [Server thread/WARN]: Roni moved too quickly! -7.264935041246417,-2.233632006042484,6.63661229909075
-[15:07:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 51584ms or 1031 ticks behind
-[15:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[15:08:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4735ms or 94 ticks behind
-[15:08:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8510ms or 170 ticks behind
-[15:09:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20852ms or 417 ticks behind
-[15:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7971ms or 159 ticks behind
-[15:10:04] [Server thread/INFO]: Roni lost connection: Disconnected
-[15:10:04] [Server thread/INFO]: Roni left the game
-[15:11:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:14:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayan/Desktop/Java%20Only%20Server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:14:15] [main/INFO]: Compatibility level set to JAVA_16
+[15:14:15] [main/INFO]: Compatibility level set to JAVA_17
+[15:14:15] [main/INFO]: Compatibility level set to JAVA_21
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:14:15] [main/INFO]: Global Executor Parallelism: 7 configured, 7 evaluated, 7 default evaluated
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[15:14:15] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[15:14:15] [main/INFO]: Detected maximum supported ISA target: AVX2
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:14:15] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:14:15] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:14:15] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[15:14:16] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[15:14:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:14:22] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[15:14:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:14:25] [main/INFO]: Loaded 1470 recipes
+[15:14:25] [main/INFO]: Loaded 1586 advancements
+[15:14:25] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.003 ms
+[15:14:25] [Server thread/INFO]: Starting background profiler...
+[15:14:25] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[15:14:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:14:25] [Server thread/INFO]: Loading properties
+[15:14:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:14:25] [Server thread/INFO]: Generating keypair
+[15:14:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:14:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:14:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:14:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:14:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:14:25] [Server thread/INFO]: Preparing level "world"
+[15:14:25] [Server thread/INFO]: Enforcing safe world random access
+[15:14:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 238.5 ms
+[15:14:26] [Server thread/INFO]: Using TheSpeedyObjectFactory without Unsafe
+[15:14:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.822 ms
+[15:14:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.587 ms
+[15:14:26] [Server thread/INFO]: Loading 0 persistent chunks...
+[15:14:26] [Server thread/INFO]: Preparing spawn area: 100%
+[15:14:26] [Server thread/INFO]: Time elapsed: 36 ms
+[15:14:26] [Server thread/INFO]: Done (1.135s)! For help, type "help"
+[15:14:38] [Server thread/INFO]: Guru[/192.168.1.2:51851] logged in with entity id 95 at (369.42302785542245, 72.0, -35.16512190542811)
+[15:14:38] [Server thread/INFO]: Guru joined the game
+[15:14:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[15:15:58] [Server thread/INFO]: Guru lost connection: Disconnected
+[15:15:58] [Server thread/INFO]: Guru left the game
