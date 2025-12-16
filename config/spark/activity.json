@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Guru",
+      "uniqueId": "5005ef53-5f4e-37e3-9f38-6f66e6452352"
+    },
+    "time": 1765808869250,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Isb9kaZ5g3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Guru",
+      "uniqueId": "5005ef53-5f4e-37e3-9f38-6f66e6452352"
+    },
+    "time": 1765738953910,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/r0kn4xWoSC"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Guru",
+      "uniqueId": "5005ef53-5f4e-37e3-9f38-6f66e6452352"
+    },
+    "time": 1765736945148,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3N5nActqzL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Guru",
+      "uniqueId": "5005ef53-5f4e-37e3-9f38-6f66e6452352"
+    },
+    "time": 1765736898938,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jYS8BGzjSv"
+    }
+  }
+]

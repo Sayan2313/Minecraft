@@ -1,0 +1,24 @@
+[00:02:44] [Server thread/INFO]: Named entity class_10730['Cow'/11666, l='ServerLevel[world]', x=374.45, y=72.55, z=-4.45] died: Cow was squished too much
+[00:05:29] [Server thread/INFO]: Roni lost connection: Disconnected
+[00:05:29] [Server thread/INFO]: Roni left the game
+[00:06:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[00:25:33] [Server thread/INFO]: Stopping server
+[00:25:33] [Server thread/INFO]: Saving players
+[00:25:33] [Server thread/INFO]: Saving worlds
+[00:25:33] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
+[00:25:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:25:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:25:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:25:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:25:33] [C2ME Storage #3/INFO]: Storage thread Thread[#89,C2ME Storage #3,8,main] stopped
+[00:25:33] [C2ME Storage #2/INFO]: Storage thread Thread[#88,C2ME Storage #2,8,main] stopped
+[00:25:33] [C2ME Storage #1/INFO]: Storage thread Thread[#87,C2ME Storage #1,8,main] stopped
+[00:25:33] [C2ME Storage #6/INFO]: Storage thread Thread[#99,C2ME Storage #6,8,main] stopped
+[00:25:33] [C2ME Storage #5/INFO]: Storage thread Thread[#98,C2ME Storage #5,8,main] stopped
+[00:25:33] [C2ME Storage #4/INFO]: Storage thread Thread[#97,C2ME Storage #4,8,main] stopped
+[00:25:33] [C2ME Storage #9/INFO]: Storage thread Thread[#102,C2ME Storage #9,8,main] stopped
+[00:25:33] [C2ME Storage #8/INFO]: Storage thread Thread[#101,C2ME Storage #8,8,main] stopped
+[00:25:33] [C2ME Storage #7/INFO]: Storage thread Thread[#100,C2ME Storage #7,8,main] stopped
