@@ -1,8 +1,8 @@
-[21:50:37] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
-[21:50:37] [main/WARN]: Warnings were found!
+[11:20:06] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[11:20:06] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.9.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[21:50:37] [main/INFO]: Loading 76 mods:
+[11:20:06] [main/INFO]: Loading 75 mods:
 	- c2me 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-base 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-client-uncapvd 0.3.6+beta.1.0+1.21.11
@@ -15,7 +15,6 @@
 	   |-- c2me-opts-chunkio 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-dfc 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-math 0.3.6+beta.1.0+1.21.11
-	   |-- c2me-opts-natives-math 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-scheduling 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-general 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-vanilla 0.3.6+beta.1.0+1.21.11
@@ -79,94 +78,121 @@
 	   \-- mixinextras 0.5.0
 	- fallingtree 1.21.11.2
 	- ferritecore 8.0.3
-	- java 25
+	- java 21
 	- lithium 0.21.1+mc1.21.11
 	- minecraft 1.21.11
 	- spark 1.10.156
 	   \-- fabric-permissions-api-v0 0.6.1
-[21:50:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayan/Desktop/Java%20Only%20Server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:50:37] [main/INFO]: Compatibility level set to JAVA_16
-[21:50:37] [main/INFO]: Compatibility level set to JAVA_17
-[21:50:37] [main/INFO]: Compatibility level set to JAVA_21
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[21:50:37] [main/INFO]: Global Executor Parallelism: 7 configured, 7 evaluated, 7 default evaluated
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[21:50:37] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[21:50:37] [main/INFO]: Detected maximum supported ISA target: AVX2
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:50:37] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[21:50:37] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[21:50:37] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[21:50:38] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[21:50:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[21:50:44] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[21:50:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:50:47] [main/INFO]: Loaded 1470 recipes
-[21:50:47] [main/INFO]: Loaded 1586 advancements
-[21:50:47] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.371 ms
-[21:50:47] [Server thread/INFO]: Starting background profiler...
-[21:50:47] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:50:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:50:47] [Server thread/INFO]: Loading properties
-[21:50:47] [Server thread/INFO]: Default game type: SURVIVAL
-[21:50:47] [Server thread/INFO]: Generating keypair
-[21:50:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:50:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:50:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:50:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:50:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:50:47] [Server thread/INFO]: Preparing level "world"
-[21:50:47] [Server thread/INFO]: Enforcing safe world random access
-[21:50:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 352.3 ms
-[21:50:48] [Server thread/INFO]: Using TheSpeedyObjectFactory without Unsafe
-[21:50:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.819 ms
-[21:50:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.336 ms
-[21:50:49] [Server thread/INFO]: Loading 0 persistent chunks...
-[21:50:49] [Server thread/INFO]: Preparing spawn area: 100%
-[21:50:49] [Server thread/INFO]: Time elapsed: 26 ms
-[21:50:49] [Server thread/INFO]: Done (1.224s)! For help, type "help"
-[21:50:51] [Server thread/INFO]: Guru[/192.168.1.2:50648] logged in with entity id 167 at (369.374677695704, 72.0, -33.35853998569203)
-[21:50:51] [Server thread/INFO]: Guru joined the game
-[21:50:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[22:38:13] [Server thread/INFO]: Guru lost connection: Disconnected
-[22:38:13] [Server thread/INFO]: Guru left the game
-[22:39:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:42:17] [Server thread/INFO]: Guru[/192.168.1.2:61781] logged in with entity id 13047 at (364.5874190544028, 74.6183020148442, -5.054542255976983)
-[22:42:17] [Server thread/INFO]: Guru joined the game
-[23:05:47] [Server thread/INFO]: Guru lost connection: Disconnected
-[23:05:47] [Server thread/INFO]: Guru left the game
-[23:05:58] [Server thread/INFO]: Stopping server
-[23:05:58] [Server thread/INFO]: Saving players
-[23:05:58] [Server thread/INFO]: Saving worlds
-[23:05:58] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
-[23:05:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:05:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:05:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:05:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:05:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:05:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:05:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:05:58] [C2ME Storage #3/INFO]: Storage thread Thread[#96,C2ME Storage #3,8,main] stopped
-[23:05:58] [C2ME Storage #2/INFO]: Storage thread Thread[#95,C2ME Storage #2,8,main] stopped
-[23:05:58] [C2ME Storage #1/INFO]: Storage thread Thread[#94,C2ME Storage #1,8,main] stopped
-[23:05:58] [C2ME Storage #6/INFO]: Storage thread Thread[#99,C2ME Storage #6,8,main] stopped
-[23:05:58] [C2ME Storage #5/INFO]: Storage thread Thread[#98,C2ME Storage #5,8,main] stopped
-[23:05:58] [C2ME Storage #4/INFO]: Storage thread Thread[#97,C2ME Storage #4,8,main] stopped
-[23:05:58] [C2ME Storage #9/INFO]: Storage thread Thread[#102,C2ME Storage #9,8,main] stopped
-[23:05:58] [C2ME Storage #8/INFO]: Storage thread Thread[#101,C2ME Storage #8,8,main] stopped
-[23:05:58] [C2ME Storage #7/INFO]: Storage thread Thread[#100,C2ME Storage #7,8,main] stopped
+[11:20:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/E:/server/Minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:20:06] [main/INFO]: Compatibility level set to JAVA_16
+[11:20:07] [main/INFO]: Compatibility level set to JAVA_17
+[11:20:07] [main/INFO]: Compatibility level set to JAVA_21
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[11:20:07] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[11:20:07] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[11:20:07] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[11:20:07] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[11:20:07] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[11:20:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.allowAVX512 because it is not used
+[11:20:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.enabled because it is not used
+[11:20:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration because it is not used
+[11:20:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:20:19] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[11:20:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:20:22] [main/INFO]: Loaded 1470 recipes
+[11:20:22] [main/INFO]: Loaded 1586 advancements
+[11:20:23] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.725 ms
+[11:20:23] [Server thread/INFO]: Starting background profiler...
+[11:20:23] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:20:23] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[11:20:23] [Server thread/INFO]: Loading properties
+[11:20:23] [Server thread/INFO]: Default game type: SURVIVAL
+[11:20:23] [Server thread/INFO]: Generating keypair
+[11:20:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:20:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:20:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:20:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:20:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:20:23] [Server thread/INFO]: Preparing level "world"
+[11:20:23] [Server thread/INFO]: Enforcing safe world random access
+[11:20:24] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 559.3 ms
+[11:20:25] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[11:20:25] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.197 ms
+[11:20:25] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.098 ms
+[11:20:25] [Server thread/INFO]: Loading 0 persistent chunks...
+[11:20:25] [Server thread/INFO]: Preparing spawn area: 100%
+[11:20:25] [Server thread/INFO]: Time elapsed: 19 ms
+[11:20:25] [Server thread/INFO]: Done (1.688s)! For help, type "help"
+[11:21:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:21:49] [Netty NIO IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at knot//net.minecraft.class_9136.method_56426(class_9136.java:50)
+	at knot//net.minecraft.class_9136.encode(class_9136.java:14)
+	at knot//net.minecraft.class_2545.method_10838(class_2545.java:26)
+	at knot//net.minecraft.class_2545.encode(class_2545.java:12)
+	at knot//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
+	at knot//io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
+	at knot//net.minecraft.class_2535$2.write(class_2535.java:488)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
+	at knot//io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
+	at knot//io.netty.channel.Channel.writeAndFlush(Channel.java:257)
+	at knot//net.minecraft.class_2535.method_36942(class_2535.java:324)
+	at knot//net.minecraft.class_2535.method_10764(class_2535.java:316)
+	at knot//net.minecraft.class_2535.method_52906(class_2535.java:298)
+	at knot//net.minecraft.class_2535.method_10752(class_2535.java:292)
+	at knot//net.minecraft.class_2535.exceptionCaught(class_2535.java:143)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
+	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
+	at knot//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
+	at knot//io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
+	at knot//io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)
+	at knot//io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)
+	at knot//io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:21:52] [Server thread/INFO]: Roni[/192.168.1.3:57169] logged in with entity id 162 at (368.28493879252187, 72.0, -34.47192494799976)
+[11:21:53] [Server thread/INFO]: Roni joined the game
+[11:21:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2730ms or 54 ticks behind
+[11:22:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19673ms or 393 ticks behind
+[12:54:06] [Server thread/INFO]: Roni burned to death
+[12:54:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=58, y=66, z=-10}
+[12:54:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=69, z=-8}
+[12:54:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=69, z=-9}
+[12:54:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=67, z=-8}
+[12:54:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=69, z=-9}
+[12:54:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=67, z=-8}
+[12:54:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=69, z=-8}
+[12:54:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=69, z=-9}
+[12:54:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=57, y=67, z=-8}
+[14:31:43] [Server thread/INFO]: Roni has completed the challenge [Hero of the Village]
+[15:15:45] [Server thread/INFO]: Named entity class_1439['Iron Golem'/56192, l='ServerLevel[world]', x=371.02, y=62.00, z=-16.76] died: Iron Golem was shot by Skeleton
+[16:52:50] [Server thread/INFO]: Roni lost connection: Disconnected
+[16:52:50] [Server thread/INFO]: Roni left the game
