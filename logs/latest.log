@@ -1,8 +1,12 @@
-[13:45:04] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
-[13:45:04] [main/WARN]: Warnings were found!
+[19:05:58] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
+[19:05:59] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.9.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[13:45:04] [main/INFO]: Loading 75 mods:
+[19:05:59] [main/INFO]: Loading 80 mods:
+	- biomesoplenty 21.11.0.2
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
 	- c2me 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-base 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-client-uncapvd 0.3.6+beta.1.0+1.21.11
@@ -15,6 +19,7 @@
 	   |-- c2me-opts-chunkio 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-dfc 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-math 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-natives-math 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-scheduling 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-general 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-vanilla 0.3.6+beta.1.0+1.21.11
@@ -23,8 +28,6 @@
 	   |-- c2me-rewrites-chunkio 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-server-utils 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-threading-lighting 0.3.6+beta.1.0+1.21.11
-	   |-- com_electronwill_night-config_core 3.6.5
-	   |-- com_electronwill_night-config_toml 3.6.5
 	   |-- com_ibm_async_asyncutil 0.1.0
 	   |-- io_reactivex_rxjava3_rxjava 3.1.12
 	   |-- mixinsquared 0.2.0-beta.6
@@ -74,83 +77,129 @@
 	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
 	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
 	   \-- fabric-transitive-access-wideners-v1 7.0.8+0107c3da3e
-	- fabricloader 0.18.2
+	- fabricloader 0.18.3
 	   \-- mixinextras 0.5.0
 	- fallingtree 1.21.11.2
 	- ferritecore 8.0.3
-	- java 21
+	- glitchcore 21.11.0.2
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- java 25
 	- lithium 0.21.1+mc1.21.11
 	- minecraft 1.21.11
 	- spark 1.10.156
 	   \-- fabric-permissions-api-v0 0.6.1
-[13:45:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/E:/server/Minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:45:06] [main/INFO]: Compatibility level set to JAVA_16
-[13:45:06] [main/INFO]: Compatibility level set to JAVA_17
-[13:45:06] [main/INFO]: Compatibility level set to JAVA_21
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[13:45:06] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:45:06] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[13:45:06] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[13:45:07] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[13:45:07] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[13:45:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.allowAVX512 because it is not used
-[13:45:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration.enabled because it is not used
-[13:45:08] [main/INFO]: Removing config entry .vanillaWorldGenOptimizations.nativeAcceleration because it is not used
-[13:45:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[13:45:20] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[13:45:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[13:45:23] [main/INFO]: Loaded 1470 recipes
-[13:45:23] [main/INFO]: Loaded 1586 advancements
-[13:45:24] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.875 ms
-[13:45:24] [Server thread/INFO]: Starting background profiler...
-[13:45:24] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:45:24] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[13:45:24] [Server thread/INFO]: Loading properties
-[13:45:24] [Server thread/INFO]: Default game type: SURVIVAL
-[13:45:24] [Server thread/INFO]: Generating keypair
-[13:45:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:45:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:45:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:45:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:45:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:45:24] [Server thread/INFO]: Preparing level "world"
-[13:45:25] [Server thread/INFO]: Enforcing safe world random access
-[13:45:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 542.4 ms
-[13:45:26] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[13:45:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.367 ms
-[13:45:26] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.616 ms
-[13:45:26] [Server thread/INFO]: Loading 0 persistent chunks...
-[13:45:26] [Server thread/INFO]: Preparing spawn area: 100%
-[13:45:26] [Server thread/INFO]: Time elapsed: 14 ms
-[13:45:26] [Server thread/INFO]: Done (1.802s)! For help, type "help"
-[13:46:26] [Server thread/INFO]: Roni[/192.168.1.3:56560] logged in with entity id 144 at (367.51441739371285, 72.0, -37.719906463418944)
-[13:46:27] [Server thread/INFO]: Roni joined the game
-[13:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2249ms or 44 ticks behind
-[13:46:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15348ms or 306 ticks behind
-[13:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[13:50:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
-[14:36:11] [Server thread/INFO]: Tree reached max size of 100
-[14:37:43] [Server thread/INFO]: Roni has made the advancement [Ol' Betsy]
-[14:43:08] [Server thread/INFO]: Roni has made the advancement [War Pigs]
-[14:43:10] [Server thread/INFO]: Roni has made the advancement [Hidden in the Depths]
-[15:03:47] [Server thread/INFO]: Roni was slain by Piglin Brute
-[15:46:18] [Server thread/INFO]: Roni has made the advancement [Country Lode, Take Me Home]
-[15:47:16] [Server thread/INFO]: Roni has made the advancement [Local Brewery]
-[15:49:17] [Server thread/INFO]: Roni lost connection: Disconnected
-[15:49:17] [Server thread/INFO]: Roni left the game
+	- terrablender 21.11.0.0
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+[19:05:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayan/Desktop/Java%20Only%20Server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:05:59] [main/INFO]: Compatibility level set to JAVA_17
+[19:05:59] [main/INFO]: Compatibility level set to JAVA_21
+[19:05:59] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:05:59] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:05:59] [main/INFO]: Global Executor Parallelism: 7 configured, 7 evaluated, 7 default evaluated
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[19:05:59] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[19:05:59] [main/INFO]: Detected maximum supported ISA target: AVX2
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:05:59] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:05:59] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:06:00] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:06:00] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:06:00] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[19:06:00] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:06:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[19:06:00] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[19:06:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:06:07] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[19:06:08] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[19:06:08] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[19:06:08] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[19:06:08] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[19:06:08] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[19:06:08] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[19:06:08] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[19:06:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:06:11] [main/INFO]: Loaded 1825 recipes
+[19:06:11] [main/INFO]: Loaded 1943 advancements
+[19:06:11] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[19:06:11] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[19:06:11] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 2.735 ms
+[19:06:11] [Server thread/INFO]: Starting background profiler...
+[19:06:11] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:06:12] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:06:12] [Server thread/INFO]: Loading properties
+[19:06:12] [Server thread/INFO]: Default game type: SURVIVAL
+[19:06:12] [Server thread/INFO]: Generating keypair
+[19:06:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:06:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:06:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:06:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:06:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:06:12] [Server thread/INFO]: Preparing level "world"
+[19:06:12] [Server thread/INFO]: Enforcing safe world random access
+[19:06:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 281.5 ms
+[19:06:13] [Server thread/INFO]: Using TheSpeedyObjectFactory without Unsafe
+[19:06:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.677 ms
+[19:06:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.137 ms
+[19:06:13] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:06:13] [Server thread/INFO]: Preparing spawn area: 100%
+[19:06:13] [Server thread/INFO]: Time elapsed: 22 ms
+[19:06:13] [Server thread/INFO]: Done (1.022s)! For help, type "help"
+[19:06:27] [Server thread/INFO]: Stopping server
+[19:06:27] [Server thread/INFO]: Saving players
+[19:06:27] [Server thread/INFO]: Saving worlds
+[19:06:27] [spark-java-sampler-0-3/WARN]: Exception occurred while getting world info
+java.util.concurrent.RejectedExecutionException: Server already shutting down
+	at knot//net.minecraft.server.MinecraftServer.method_40000(MinecraftServer.java:1504)
+	at knot//me.lucko.spark.minecraft.plugin.MinecraftServerSparkPlugin.executeSync(MinecraftServerSparkPlugin.java:100)
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1803)
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2026)
+	at knot//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.async(AsyncWorldInfoProvider.java:55)
+	at knot//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.pollCounts(AsyncWorldInfoProvider.java:77)
+	at knot//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.getCounts(AsyncWorldInfoProvider.java:93)
+	at knot//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measure(WindowStatisticsCollector.java:186)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1724)
+	at knot//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measureNow(WindowStatisticsCollector.java:124)
+	at knot//me.lucko.spark.common.sampler.java.JavaSampler.stop(JavaSampler.java:116)
+	at knot//me.lucko.spark.common.sampler.java.JavaSampler.run(JavaSampler.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[19:06:27] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
+[19:06:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:06:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:06:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:06:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:06:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:06:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:06:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:06:27] [C2ME Storage #3/INFO]: Storage thread Thread[#96,C2ME Storage #3,8,main] stopped
+[19:06:27] [C2ME Storage #2/INFO]: Storage thread Thread[#95,C2ME Storage #2,8,main] stopped
+[19:06:27] [C2ME Storage #1/INFO]: Storage thread Thread[#94,C2ME Storage #1,8,main] stopped
+[19:06:27] [C2ME Storage #6/INFO]: Storage thread Thread[#99,C2ME Storage #6,8,main] stopped
+[19:06:27] [C2ME Storage #5/INFO]: Storage thread Thread[#98,C2ME Storage #5,8,main] stopped
+[19:06:27] [C2ME Storage #4/INFO]: Storage thread Thread[#97,C2ME Storage #4,8,main] stopped
+[19:06:27] [C2ME Storage #9/INFO]: Storage thread Thread[#102,C2ME Storage #9,8,main] stopped
+[19:06:27] [C2ME Storage #8/INFO]: Storage thread Thread[#101,C2ME Storage #8,8,main] stopped
+[19:06:27] [C2ME Storage #7/INFO]: Storage thread Thread[#100,C2ME Storage #7,8,main] stopped
