@@ -11,15 +11,21 @@
       "minecraft:snowy_slopes": "2025-12-30 23:36:10 +0530",
       "minecraft:forest": "2025-12-23 12:54:25 +0530",
       "minecraft:taiga": "2025-12-23 14:15:51 +0530",
+      "minecraft:deep_ocean": "2026-01-07 15:15:43 +0530",
+      "minecraft:deep_cold_ocean": "2026-01-07 15:16:35 +0530",
       "minecraft:frozen_ocean": "2025-12-22 22:54:04 +0530",
       "minecraft:desert": "2025-12-31 01:14:46 +0530",
       "minecraft:frozen_river": "2025-12-22 22:53:39 +0530",
       "minecraft:deep_frozen_ocean": "2026-01-06 15:12:48 +0530",
+      "minecraft:windswept_forest": "2026-01-07 16:05:33 +0530",
       "minecraft:jungle": "2025-12-31 01:13:07 +0530",
+      "minecraft:ocean": "2026-01-07 14:53:17 +0530",
       "minecraft:cherry_grove": "2025-12-30 23:39:18 +0530",
       "minecraft:sunflower_plains": "2025-12-30 23:36:16 +0530",
       "minecraft:birch_forest": "2025-12-30 23:40:06 +0530",
+      "minecraft:windswept_hills": "2026-01-07 16:05:21 +0530",
       "minecraft:snowy_beach": "2025-12-22 22:53:55 +0530",
+      "minecraft:bamboo_jungle": "2026-01-07 14:14:17 +0530",
       "minecraft:warm_ocean": "2025-12-31 01:14:56 +0530",
       "minecraft:deep_lukewarm_ocean": "2025-12-31 02:43:52 +0530",
       "minecraft:badlands": "2025-12-31 01:14:37 +0530",
@@ -38,6 +44,7 @@
       "minecraft:old_growth_birch_forest": "2025-12-23 14:57:05 +0530",
       "minecraft:deep_dark": "2025-12-23 15:45:35 +0530",
       "minecraft:grove": "2025-12-31 03:39:50 +0530",
+      "minecraft:swamp": "2026-01-07 15:57:13 +0530",
       "minecraft:meadow": "2025-12-23 13:00:45 +0530",
       "minecraft:savanna": "2025-12-31 02:04:28 +0530",
       "minecraft:plains": "2025-12-22 23:17:12 +0530",
@@ -1204,6 +1211,7 @@
       "minecraft:blaze": "2026-01-01 22:34:32 +0530",
       "minecraft:skeleton": "2025-12-23 13:30:28 +0530",
       "minecraft:zombified_piglin": "2026-01-02 13:54:47 +0530",
+      "minecraft:witch": "2026-01-07 16:01:18 +0530",
       "minecraft:wither_skeleton": "2026-01-02 13:52:48 +0530",
       "minecraft:bogged": "2026-01-06 14:31:31 +0530",
       "minecraft:ghast": "2026-01-02 11:18:54 +0530",
@@ -3622,16 +3630,19 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "spider_nest": "2025-12-30 00:08:57 +0530",
+      "muskeg": "2026-01-07 15:37:39 +0530",
       "woodland": "2025-12-31 01:13:16 +0530",
       "dryland": "2025-12-31 01:14:20 +0530",
       "wasteland": "2025-12-31 01:37:30 +0530",
       "shrubland": "2025-12-31 03:38:26 +0530",
+      "snowblossom_grove": "2026-01-07 15:39:42 +0530",
       "rocky_shrubland": "2025-12-31 03:38:28 +0530",
       "lush_desert": "2025-12-31 02:09:11 +0530",
       "redwood_forest": "2025-12-31 03:38:16 +0530",
       "scrubland": "2025-12-31 01:13:39 +0530",
       "wasteland_steppe": "2025-12-31 02:01:56 +0530",
       "bayou": "2025-12-31 02:26:59 +0530",
+      "dune_beach": "2026-01-07 14:56:29 +0530",
       "erupting_inferno": "2026-01-03 14:34:38 +0530",
       "floodplain": "2025-12-31 02:07:43 +0530",
       "lush_savanna": "2025-12-31 02:46:48 +0530",
@@ -3639,6 +3650,8 @@
       "highland": "2026-01-06 15:40:33 +0530",
       "volcano": "2025-12-31 02:08:19 +0530",
       "rocky_rainforest": "2025-12-31 03:30:45 +0530",
+      "marsh": "2026-01-07 15:57:47 +0530",
+      "volcanic_plains": "2026-01-07 14:13:18 +0530",
       "mystic_grove": "2026-01-06 15:56:18 +0530",
       "cold_desert": "2026-01-06 15:22:05 +0530",
       "lavender_field": "2025-12-30 00:12:22 +0530",
@@ -3648,6 +3661,7 @@
       "crystalline_chasm": "2026-01-03 14:24:34 +0530",
       "fir_clearing": "2026-01-06 15:27:20 +0530",
       "prairie": "2025-12-31 01:12:30 +0530",
+      "grassland": "2026-01-07 15:54:41 +0530",
       "snowy_coniferous_forest": "2026-01-06 15:18:09 +0530",
       "snowy_fir_clearing": "2026-01-06 15:19:32 +0530",
       "tundra": "2026-01-06 15:22:12 +0530",
@@ -5675,15 +5689,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2026-01-06 22:20:09 +0530"
+    },
+    "done": true
+  },
   "minecraft:adventure/blowback": {
     "criteria": {
       "blowback": "2026-01-06 22:28:34 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "has_potato": "2026-01-06 22:20:09 +0530"
+      "has_melon": "2026-01-07 14:16:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2026-01-07 14:24:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2026-01-07 14:16:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2026-01-07 14:16:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-01-07 14:24:23 +0530"
     },
     "done": true
   },
