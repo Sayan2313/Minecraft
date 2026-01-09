@@ -102,6 +102,7 @@
       "baked_potato": "2025-12-23 14:46:26 +0530",
       "golden_carrot": "2025-12-23 14:33:44 +0530",
       "cooked_chicken": "2026-01-02 10:10:20 +0530",
+      "cooked_cod": "2026-01-09 14:15:18 +0530",
       "mushroom_stew": "2026-01-03 13:25:36 +0530",
       "carrot": "2025-12-23 14:32:11 +0530"
     },
@@ -3635,6 +3636,7 @@
       "dryland": "2025-12-31 01:14:20 +0530",
       "wasteland": "2025-12-31 01:37:30 +0530",
       "shrubland": "2025-12-31 03:38:26 +0530",
+      "end_corruption": "2026-01-09 16:13:13 +0530",
       "snowblossom_grove": "2026-01-07 15:39:42 +0530",
       "rocky_shrubland": "2025-12-31 03:38:28 +0530",
       "lush_desert": "2025-12-31 02:09:11 +0530",
@@ -5779,12 +5781,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2026-01-09 01:13:12 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_white_carpet": {
     "criteria": {
       "has_needed_dye": "2026-01-09 01:07:13 +0530"
@@ -5821,18 +5817,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2026-01-09 01:11:42 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2026-01-09 01:11:42 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
       "has_needed_dye": "2026-01-09 01:07:13 +0530"
@@ -5851,21 +5835,123 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2026-01-09 01:11:42 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2026-01-09 01:07:13 +0530"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2026-01-09 01:11:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2026-01-09 01:11:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2026-01-09 01:11:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-01-09 01:13:12 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2026-01-09 01:13:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-01-09 16:18:52 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper": "2026-01-09 15:11:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_copper_grate": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper": "2026-01-09 15:11:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper_from_waxed_weathered_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper": "2026-01-09 15:11:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper": "2026-01-09 15:11:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper": "2026-01-09 15:11:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_weathered_copper_bulb": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_cut_copper": {
+    "criteria": {
+      "has_waxed_weathered_copper": "2026-01-09 15:12:22 +0530"
     },
     "done": true
   },
