@@ -6310,15 +6310,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
+  "minecraft:nether/summon_wither": {
     "criteria": {
-      "has_stripped_logs": "2026-01-30 13:12:45 +0530"
+      "summoned": "2026-01-30 12:33:34 +0530"
     },
     "done": true
   },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2026-01-30 12:33:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-01-30 13:12:45 +0530"
     },
     "done": true
   },
@@ -6334,9 +6340,9 @@
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
+  "minecraft:nether/create_beacon": {
     "criteria": {
-      "summoned": "2026-01-30 12:33:34 +0530"
+      "beacon": "2026-01-30 22:26:47 +0530"
     },
     "done": true
   },
