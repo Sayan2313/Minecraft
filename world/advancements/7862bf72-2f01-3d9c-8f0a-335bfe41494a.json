@@ -13,6 +13,7 @@
       "minecraft:forest": "2025-12-23 12:54:25 +0530",
       "minecraft:taiga": "2025-12-23 14:15:51 +0530",
       "minecraft:deep_ocean": "2026-01-07 15:15:43 +0530",
+      "minecraft:lush_caves": "2026-03-13 20:16:06 +0530",
       "minecraft:deep_cold_ocean": "2026-01-07 15:16:35 +0530",
       "minecraft:frozen_ocean": "2025-12-22 22:54:04 +0530",
       "minecraft:desert": "2025-12-31 01:14:46 +0530",
@@ -28,6 +29,7 @@
       "minecraft:old_growth_spruce_taiga": "2026-02-01 12:38:56 +0530",
       "minecraft:snowy_beach": "2025-12-22 22:53:55 +0530",
       "minecraft:bamboo_jungle": "2026-01-07 14:14:17 +0530",
+      "minecraft:windswept_savanna": "2026-03-13 20:38:29 +0530",
       "minecraft:warm_ocean": "2025-12-31 01:14:56 +0530",
       "minecraft:deep_lukewarm_ocean": "2025-12-31 02:43:52 +0530",
       "minecraft:badlands": "2025-12-31 01:14:37 +0530",
@@ -1241,6 +1243,7 @@
       "minecraft:wither_skeleton": "2026-01-02 13:52:48 +0530",
       "minecraft:ender_dragon": "2025-12-30 01:05:30 +0530",
       "minecraft:shulker": "2025-12-30 01:31:03 +0530",
+      "minecraft:cave_spider": "2026-03-13 20:23:20 +0530",
       "minecraft:piglin": "2025-12-23 00:29:29 +0530",
       "minecraft:silverfish": "2025-12-22 23:31:57 +0530",
       "minecraft:stray": "2025-12-23 14:33:58 +0530",
@@ -3699,6 +3702,7 @@
       "snowy_fir_clearing": "2026-01-06 15:19:32 +0530",
       "tundra": "2026-01-06 15:22:12 +0530",
       "gravel_beach": "2026-01-06 15:06:10 +0530",
+      "glowing_grotto": "2026-03-13 20:14:49 +0530",
       "undergrowth": "2026-01-03 14:36:09 +0530",
       "rainforest": "2025-12-31 01:13:10 +0530",
       "crag": "2025-12-31 02:06:15 +0530",
@@ -6699,6 +6703,30 @@
   "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
     "criteria": {
       "has_vex_armor_trim_smithing_template": "2026-02-19 14:39:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-03-13 20:22:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-03-13 20:19:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-03-13 20:22:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2026-03-13 20:17:59 +0530"
     },
     "done": true
   },
