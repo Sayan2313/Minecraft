@@ -6790,5 +6790,17 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/empyreal_planks": {
+    "criteria": {
+      "has_logs": "2026-03-14 23:10:48 +0530"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/empyreal_wood": {
+    "criteria": {
+      "has_log": "2026-03-14 23:10:48 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
