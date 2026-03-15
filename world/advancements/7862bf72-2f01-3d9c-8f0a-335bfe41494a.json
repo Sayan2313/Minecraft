@@ -1238,6 +1238,7 @@
       "minecraft:slime": "2025-12-31 00:50:59 +0530",
       "minecraft:evoker": "2026-02-19 14:09:28 +0530",
       "minecraft:zombie_nautilus": "2026-02-19 13:57:31 +0530",
+      "minecraft:phantom": "2026-03-15 11:28:57 +0530",
       "minecraft:zombified_piglin": "2026-01-02 13:54:47 +0530",
       "minecraft:witch": "2026-01-07 16:01:18 +0530",
       "minecraft:wither_skeleton": "2026-01-02 13:52:48 +0530",
@@ -2313,6 +2314,7 @@
     "criteria": {
       "minecraft:cow": "2025-12-23 01:39:32 +0530",
       "minecraft:chicken": "2025-12-23 12:57:25 +0530",
+      "minecraft:armadillo": "2026-03-15 11:20:59 +0530",
       "minecraft:sheep": "2025-12-23 13:15:45 +0530",
       "minecraft:bee": "2026-01-01 22:58:38 +0530"
     },
@@ -6799,6 +6801,60 @@
   "biomesoplenty:recipes/building_blocks/empyreal_wood": {
     "criteria": {
       "has_log": "2026-03-14 23:10:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-03-15 12:02:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-15 12:28:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-03-15 12:17:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-03-15 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-03-15 12:28:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-03-15 11:42:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2026-03-15 12:17:50 +0530"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/mossy_black_sand": {
+    "criteria": {
+      "has_moss_block": "2026-03-15 12:28:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-03-15 12:28:08 +0530"
     },
     "done": true
   },
