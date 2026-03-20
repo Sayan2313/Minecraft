@@ -1,8 +1,8 @@
-[05:21:36] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
-[05:21:37] [main/WARN]: Warnings were found!
+[21:51:07] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.3
+[21:51:07] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.9.1+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[05:21:37] [main/INFO]: Loading 81 mods:
+[21:51:07] [main/INFO]: Loading 80 mods:
 	- biomesoplenty 21.11.0.2
 	   |-- com_electronwill_night-config_core 3.6.7
 	   |-- com_electronwill_night-config_toml 3.6.7
@@ -19,7 +19,6 @@
 	   |-- c2me-opts-chunkio 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-dfc 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-math 0.3.6+beta.1.0+1.21.11
-	   |-- c2me-opts-natives-math 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-scheduling 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-general 0.3.6+beta.1.0+1.21.11
 	   |-- c2me-opts-worldgen-vanilla 0.3.6+beta.1.0+1.21.11
@@ -85,7 +84,7 @@
 	   |-- com_electronwill_night-config_core 3.6.7
 	   |-- com_electronwill_night-config_toml 3.6.7
 	   \-- net_jodah_typetools 0.6.3
-	- java 25
+	- java 21
 	- lithium 0.21.1+mc1.21.11
 	- minecraft 1.21.11
 	- mymod 1.0.1
@@ -94,124 +93,79 @@
 	- terrablender 21.11.0.0
 	   |-- com_electronwill_night-config_core 3.6.7
 	   \-- com_electronwill_night-config_toml 3.6.7
-[05:21:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Sayan/Desktop/JAVA%20ONLY/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:21:37] [main/INFO]: Compatibility level set to JAVA_17
-[05:21:37] [main/INFO]: Compatibility level set to JAVA_21
-[05:21:37] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:21:37] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[05:21:37] [main/INFO]: Global Executor Parallelism: 7 configured, 7 evaluated, 7 default evaluated
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[05:21:37] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[05:21:37] [main/INFO]: Detected maximum supported ISA target: AVX2
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:21:37] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[05:21:37] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[05:21:37] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:21:37] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:21:37] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[05:21:37] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[05:21:38] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[05:21:38] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[05:21:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[05:21:46] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[05:21:47] [main/INFO]: Registering Mod Items mymod
-[05:21:47] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[05:21:47] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[05:21:47] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[05:21:47] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[05:21:47] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[05:21:47] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[05:21:47] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[05:21:47] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05:21:50] [main/INFO]: Loaded 1838 recipes
-[05:21:50] [main/INFO]: Loaded 1956 advancements
-[05:21:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[05:21:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[05:21:51] [main/INFO]: Applied 132 biome modifications to 132 of 134 new biomes in 77.51 ms
-[05:21:51] [Server thread/INFO]: Starting background profiler...
-[05:21:51] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[05:21:51] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[05:21:51] [Server thread/INFO]: Loading properties
-[05:21:51] [Server thread/INFO]: Default game type: SURVIVAL
-[05:21:51] [Server thread/INFO]: Generating keypair
-[05:21:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:21:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:21:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:21:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:21:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:21:52] [Server thread/INFO]: Preparing level "world"
-[05:21:52] [Server thread/INFO]: Enforcing safe world random access
-[05:21:52] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 269.5 ms
-[05:21:52] [Server thread/INFO]: Using TheSpeedyObjectFactory without Unsafe
-[05:21:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.681 ms
-[05:21:53] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.818 ms
-[05:21:53] [Server thread/INFO]: Loading 0 persistent chunks...
-[05:21:53] [Server thread/INFO]: Preparing spawn area: 100%
-[05:21:53] [Server thread/INFO]: Time elapsed: 23 ms
-[05:21:53] [Server thread/INFO]: Done (1.133s)! For help, type "help"
-[05:22:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[05:24:58] [Server thread/INFO]: Guru[/192.168.1.4:61216] logged in with entity id 245 at (388.3717717668973, 81.0, -28.20551157056652)
-[05:24:58] [Server thread/INFO]: Guru joined the game
-[05:25:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
-[05:28:29] [Server thread/INFO]: OTAKUN[/192.168.1.2:57510] logged in with entity id 1414 at (392.8429009132401, 78.0, -38.05722662294148)
-[05:28:29] [Server thread/INFO]: OTAKUN joined the game
-[05:36:38] [Server thread/INFO]: OTAKUN lost connection: Disconnected
-[05:36:38] [Server thread/INFO]: OTAKUN left the game
-[05:38:01] [Server thread/INFO]: OTAKUN[/192.168.1.2:58140] logged in with entity id 5191 at (417.69999998807907, 79.0, -43.31329899967206)
-[05:38:01] [Server thread/INFO]: OTAKUN joined the game
-[05:49:01] [Server thread/WARN]: Guru moved too quickly! -7.198637648375495,5.311228044442416,-6.688195850491169
-[05:52:17] [Server thread/WARN]: Guru moved too quickly! -6.367931668132087,-7.3104479032597,-3.674568584083559
-[05:57:13] [Server thread/INFO]: OTAKUN lost connection: Disconnected
-[05:57:13] [Server thread/INFO]: OTAKUN left the game
-[05:57:20] [Server thread/INFO]: OTAKUN[/192.168.1.2:58822] logged in with entity id 12436 at (407.0903880471851, 83.0, -36.6664382676001)
-[05:57:20] [Server thread/INFO]: OTAKUN joined the game
-[06:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=444, y=79, z=-57} class_2338{x=445, y=79, z=-57}
-[06:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=444, y=79, z=-57} class_2338{x=445, y=79, z=-57}
-[06:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=444, y=79, z=-58} class_2338{x=445, y=79, z=-57}
-[06:36:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=444, y=83, z=-50} class_2338{x=444, y=82, z=-51}
-[07:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=415, y=80, z=-39} class_2338{x=415, y=80, z=-38}
-[07:07:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=415, y=80, z=-39} class_2338{x=415, y=80, z=-38}
-[07:13:47] [Server thread/INFO]: Guru lost connection: Disconnected
-[07:13:47] [Server thread/INFO]: Guru left the game
-[07:13:53] [Server thread/INFO]: Guru[/192.168.1.4:53408] logged in with entity id 35721 at (417.24425469526096, 79.9375, -41.15462625617108)
-[07:13:53] [Server thread/INFO]: Guru joined the game
-[07:14:00] [Server thread/INFO]: OTAKUN lost connection: Disconnected
-[07:14:00] [Server thread/INFO]: OTAKUN left the game
-[07:14:56] [Server thread/INFO]: Guru lost connection: Disconnected
-[07:14:56] [Server thread/INFO]: Guru left the game
-[07:15:10] [Server thread/INFO]: Stopping server
-[07:15:10] [Server thread/INFO]: Saving players
-[07:15:10] [Server thread/INFO]: Saving worlds
-[07:15:10] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 729 chunks to unload
-[07:15:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:15:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07:15:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07:15:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:15:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:15:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:15:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:15:10] [C2ME Storage #3/INFO]: Storage thread Thread[#97,C2ME Storage #3,8,main] stopped
-[07:15:10] [C2ME Storage #2/INFO]: Storage thread Thread[#96,C2ME Storage #2,8,main] stopped
-[07:15:10] [C2ME Storage #1/INFO]: Storage thread Thread[#95,C2ME Storage #1,8,main] stopped
-[07:15:10] [C2ME Storage #6/INFO]: Storage thread Thread[#100,C2ME Storage #6,8,main] stopped
-[07:15:10] [C2ME Storage #5/INFO]: Storage thread Thread[#99,C2ME Storage #5,8,main] stopped
-[07:15:10] [C2ME Storage #4/INFO]: Storage thread Thread[#98,C2ME Storage #4,8,main] stopped
-[07:15:10] [C2ME Storage #8/INFO]: Storage thread Thread[#102,C2ME Storage #8,8,main] stopped
-[07:15:10] [C2ME Storage #9/INFO]: Storage thread Thread[#103,C2ME Storage #9,8,main] stopped
-[07:15:10] [C2ME Storage #7/INFO]: Storage thread Thread[#101,C2ME Storage #7,8,main] stopped
+[21:51:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/E:/server/Minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:51:07] [main/INFO]: Compatibility level set to JAVA_17
+[21:51:07] [main/INFO]: Compatibility level set to JAVA_21
+[21:51:07] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:07] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:51:07] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:51:07] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:51:08] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:51:08] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:51:08] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:08] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:08] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[21:51:08] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:51:08] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:51:08] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[21:51:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:51:17] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[21:51:18] [main/INFO]: Registering Mod Items mymod
+[21:51:18] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:51:18] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:51:18] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[21:51:18] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[21:51:18] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[21:51:18] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[21:51:18] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[21:51:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:51:24] [main/INFO]: Loaded 1838 recipes
+[21:51:24] [main/INFO]: Loaded 1956 advancements
+[21:51:24] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21:51:26] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:51:26] [main/INFO]: Applied 132 biome modifications to 132 of 134 new biomes in 188.5 ms
+[21:51:26] [Server thread/INFO]: Starting background profiler...
+[21:51:26] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:51:27] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:51:27] [Server thread/INFO]: Loading properties
+[21:51:27] [Server thread/INFO]: Default game type: SURVIVAL
+[21:51:27] [Server thread/INFO]: Generating keypair
+[21:51:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:51:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:51:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:51:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:51:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:51:27] [Server thread/INFO]: Preparing level "world"
+[21:51:27] [Server thread/INFO]: Enforcing safe world random access
+[21:51:28] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 442.5 ms
+[21:51:28] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:51:29] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 17.15 ms
+[21:51:29] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 25.30 ms
+[21:51:29] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:51:29] [Server thread/INFO]: Preparing spawn area: 100%
+[21:51:29] [Server thread/INFO]: Time elapsed: 42 ms
+[21:51:29] [Server thread/INFO]: Done (1.714s)! For help, type "help"
+[21:52:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:54:09] [Server thread/INFO]: rohanxt[/192.168.1.3:52991] logged in with entity id 83 at (1984.5986491863514, -19.0, -523.6935540579167)
+[21:54:09] [Server thread/INFO]: rohanxt joined the game
+[21:54:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2192ms or 43 ticks behind
+[21:54:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17317ms or 346 ticks behind
+[22:18:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[22:30:52] [Server thread/INFO]: rohanxt lost connection: Disconnected
+[22:30:52] [Server thread/INFO]: rohanxt left the game
